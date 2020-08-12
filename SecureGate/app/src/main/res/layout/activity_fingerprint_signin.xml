@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FingerprintSignin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fingerprint Authentication"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:id="@+id/txt"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txt"
+        android:src="@drawable/ic_fingerprint"
+        android:layout_margin="20dp"
+        android:id="@+id/img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place your finger on scanner to proceed"
+        android:layout_below="@id/img"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
+        android:textColor="#000"
+        android:id="@+id/txtMsg"/>
+
+
+</RelativeLayout>
